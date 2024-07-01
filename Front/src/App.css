@@ -1,0 +1,195 @@
+/* App.css */
+* { 
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+} 
+
+html { 
+  background: linear-gradient(to right, #26e099, #27a7ac);
+} 
+
+.app-name { 
+	font-size: 2.3rem; 
+	color: rgb(2, 7, 1); 
+	margin-bottom: 16px; 
+} 
+
+.App { 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	width: 600px; 
+	min-height: 440px; 
+	background-color: rgb(203, 209, 124); 
+	text-align: center; 
+	margin: 128px auto; 
+	border-radius: 2.5rem; 
+	padding-bottom: 32px; 
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+} 
+
+.city-search { 
+	width: 100%; 
+	max-width: 400px; 
+	box-sizing: border-box; 
+	border: 2px solid rgb(204, 204, 204); 
+	outline: none; 
+	border-radius: 20px; 
+	font-size: 16px; 
+	background-color: #e5eef0; 
+	background-position: 10px 12px; 
+	background-repeat: no-repeat; 
+	padding: 12px 40px 12px 40px; 
+	-webkit-transition: width 0.4s ease-in-out; 
+	transition: width 0.4s ease-in-out; 
+  color: #120331;
+} 
+
+.city-search:focus { 
+	width: 100%; 
+} 
+
+.city-name { 
+	font-size: 1.5rem; 
+  color: #120331;
+	margin-bottom: 8px; 
+} 
+
+.date { 
+	font-size: 1.25em; 
+	font-weight: 500; 
+	color: #4b4444; 
+} 
+
+.icon-temp { 
+	font-size: 3rem; 
+	font-weight: 700; 
+	color: #1e2432; 
+	text-align: center; 
+} 
+
+.deg { 
+	font-size: 1.3rem; 
+	vertical-align: super; 
+} 
+
+.des-wind { 
+	font-weight: 10000; 
+  color: #f6f6f7; 
+    font-size: 1.3rem;
+    margin-bottom: 8px; 
+} 
+
+.error-message { 
+	display: block; 
+	text-align: center; 
+	color: #f3eeee; 
+	font-size: 24px; 
+	margin-top: auto; 
+} 
+
+.Loader { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	height: 100%; 
+} 
+
+.Loader>div { 
+	margin: 0 auto; 
+} 
+
+.weather-icon { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+} 
+
+.weather-icon img { 
+	width: 100px; 
+	height: 100px; 
+	border-radius: 50%; 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .App {
+    width: 90%;
+    margin: 64px auto;
+    padding: 16px;
+  }
+
+  .app-name {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+
+  .city-search {
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .city-name {
+    font-size: 1.25rem;
+    margin-bottom: 6px;
+  }
+
+  .icon-temp {
+    font-size: 2.5rem;
+  }
+
+  .des-wind {
+    font-size: 1.1rem;
+  }
+
+  .error-message {
+    font-size: 20px;
+  }
+
+  .weather-icon img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    width: 100%;
+    margin: 36px auto;
+    padding: 1px;
+  }
+
+  .app-name {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+
+  .city-search {
+    font-size: 12px;
+    padding: 8px 20px 8px 20px;
+  }
+
+  .city-name {
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+
+  .icon-temp {
+    font-size: 2rem;
+  }
+
+  .des-wind {
+    font-size: 1rem;
+  }
+
+  .error-message {
+    font-size: 18px;
+  }
+
+  .weather-icon img {
+    width: 60px;
+    height: 60px;
+  }
+}

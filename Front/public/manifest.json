@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "lhttps://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F77%2F0b%2F80%2F770b805d5c99c7931366c2e84e88f251.png&tbnid=Ih4o46ysLZGKwM&vet=12ahUKEwjH4ur3ueSDAxV0nGMGHVaYAJwQMygAegQIARBz..i&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F624733779552408321%2F&docid=hRXc0nGMnSi0YM&w=1024&h=1024&q=weather%20images%20icon&ved=2ahUKEwjH4ur3ueSDAxV0nGMGHVaYAJwQMygAegQIARBz",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F77%2F0b%2F80%2F770b805d5c99c7931366c2e84e88f251.png&tbnid=Ih4o46ysLZGKwM&vet=12ahUKEwjH4ur3ueSDAxV0nGMGHVaYAJwQMygAegQIARBz..i&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F624733779552408321%2F&docid=hRXc0nGMnSi0YM&w=1024&h=1024&q=weather%20images%20icon&ved=2ahUKEwjH4ur3ueSDAxV0nGMGHVaYAJwQMygAegQIARBz",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
